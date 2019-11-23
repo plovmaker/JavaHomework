@@ -1,4 +1,6 @@
 public class Car implements Motor, Wheel {
+    private Motor motor;
+    private Wheel wheel;
     private int position = 0;
     private float gas = 5;
     private String model;

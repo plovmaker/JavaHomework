@@ -1,3 +1,3 @@
 public interface Motor {
-    public int power = 100;
+    final static int POWER = 100;
 }

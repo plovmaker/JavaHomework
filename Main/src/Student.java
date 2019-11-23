@@ -13,7 +13,7 @@ public class Student {
     private String institute; // Факультет
     private String major;
     private String group;
-    public static List instances = new ArrayList();
+    public static List<Student> instances = new ArrayList<>();
 
     public Student(int id, String lastName, String firstName, String middleName, int birthDate, String addr, int phone, String institute, String major, String group) {
         this.id = id;
@@ -46,6 +46,7 @@ public class Student {
     public String getFirstName() {
         return firstName;
     }
+
     public String getLastName() {
         return lastName;
     }
